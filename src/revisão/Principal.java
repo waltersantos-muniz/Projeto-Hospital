@@ -69,4 +69,6 @@ public class Principal {
      System.out.println("Matricula: "+m.getMatricula());
     }
     
+    Hospital h = new Hospital(5,"666","KKK");
+   
 }

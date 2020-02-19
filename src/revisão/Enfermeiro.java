@@ -2,7 +2,7 @@
 package revisão;
 
 
-public class Enfermeiro extends Funcionário{
+public class Enfermeiro extends Funcionario{
     private String coren;
 
     public String getCoren() {
@@ -12,6 +12,9 @@ public class Enfermeiro extends Funcionário{
     public void setCoren(String coren) {
         this.coren = coren;
     }
-    
+    public double gerarBonus(){
+        return calcularSalario()*0.15;
+        
+    }
     
 }
