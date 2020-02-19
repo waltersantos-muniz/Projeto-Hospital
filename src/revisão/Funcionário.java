@@ -19,8 +19,7 @@ public class Funcionário extends Pessoa{
         
     }
     public double calcularSalario(double descontos){
-        descontos = 10;
-        return this.valorHora*30-descontos;
+        return (this.valorHora*30)-descontos;
         
     }
 
