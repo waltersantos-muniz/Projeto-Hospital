@@ -1,7 +1,7 @@
 
 package revisão;
 
-public class Funcionário extends Pessoa{
+public class Funcionario extends Pessoa{
     private int matricula;
     private String senha;
     private double valorHora;

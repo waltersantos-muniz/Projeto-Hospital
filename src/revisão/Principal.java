@@ -20,7 +20,7 @@ public class Principal {
      System.out.println("Idade: "+p.getIdade());
         System.out.println("----Funcionário---- ");
      
-     Funcionário f = new Funcionário();
+     Funcionario f = new Funcionario();
      f.setCPF("441.456.693-20");
      f.setIdade(12);
      f.setMatricula(245681);
@@ -52,7 +52,7 @@ public class Principal {
      System.out.println("Coren: "+e.getCoren());
         System.out.println("----Médico----- ");
      
-     Médico m = new Médico();
+     Medico m = new Medico();
      m.setCrm("654645465");
      m.setEspecialiade("Fonodialogo");
      m.setCPF("416.293.337-51");

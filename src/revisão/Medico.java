@@ -2,7 +2,7 @@
 package revisão;
 
 
-public class Médico extends Funcionário{
+public class Medico extends Funcionario{
     private String crm;
     private String especialiade;
 
