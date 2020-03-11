@@ -9,12 +9,21 @@ import model.Funcionario;
 import java.sql.Connection;
 import javax.swing.JOptionPane;
 import model.ConnectionFactory;
+import view.CadHospital;
+import view.CadProntoSocorro;
+
 
 
 public class Principal {
 
  
     public static void main(String[] args) {
+        
+         CadHospital cadh = new CadHospital();
+         cadh.setVisible(true);
+         
+         CadProntoSocorro cadp = new CadProntoSocorro();
+         cadp.setVisible(true);
         
         try{
             Connection con = new ConnectionFactory().getConnection();
@@ -88,6 +97,7 @@ public class Principal {
      System.out.println("Matricula: "+m.getMatricula());
     }
     
-    Hospital h = new Hospital(5,"666","KKK");
+    Hospital h = new Hospital("KKK");
+   
    
 }

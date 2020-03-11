@@ -51,3 +51,5 @@ nr_corem varchar(45) not null,
 id_funcionario int not null,
 foreign key(id_funcionario) references funcionarios(cd)
 );
+
+select * from hospital;

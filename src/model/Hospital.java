@@ -63,9 +63,7 @@ public class Hospital {
        }
     }
     
-    public Hospital(int id,String end, String nome){
-        this.idHospital = id;
-        this.endereco = end;
+    public Hospital(String nome){
         this.nome = nome;
     }
 }
